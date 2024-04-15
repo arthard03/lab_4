@@ -3,8 +3,9 @@
 public class Visits
 {
     public DateTime Date { get; set; }
-    public string desc { get; set; }
-    public double price { get; set; }
-    public AnimalShelter AnimalShelter { get; set; }
+    public string Visistdesc { get; set; }
+    public double Visitprice { get; set; }
+    public  AnimalShelter AnimalShelter{ get; set; }
+     
 
 }

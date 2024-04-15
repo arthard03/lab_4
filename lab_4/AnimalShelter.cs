@@ -2,12 +2,12 @@
 
 public class AnimalShelter
 {
-   public int id { get; set; }
-   public string name { get; set; }
-   public string type { get; set; }
-   public double weight { get; set; }
-   public string color { get; set; }
-      
-      
+   public int IdAnimal { get; set; }
+   public string AnimalName { get; set; }
+   public string AnimalType { get; set; }
+   public double AnimalWeight { get; set; }
+   public string AnimalColor { get; set; }
+
+
       
 }

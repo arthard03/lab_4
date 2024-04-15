@@ -460,26 +460,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\s28312\\.nuget\\packages\\": {}
+    "C:\\Users\\ovsii\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\s28312\\RiderProjects\\lab_4\\lab_4\\lab_4.csproj",
+      "projectUniqueName": "C:\\Users\\ovsii\\OneDrive\\Desktop\\lab_4\\lab_4\\lab_4.csproj",
       "projectName": "lab_4",
-      "projectPath": "C:\\Users\\s28312\\RiderProjects\\lab_4\\lab_4\\lab_4.csproj",
-      "packagesPath": "C:\\Users\\s28312\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\s28312\\RiderProjects\\lab_4\\lab_4\\obj\\",
+      "projectPath": "C:\\Users\\ovsii\\OneDrive\\Desktop\\lab_4\\lab_4\\lab_4.csproj",
+      "packagesPath": "C:\\Users\\ovsii\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ovsii\\OneDrive\\Desktop\\lab_4\\lab_4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\s28312\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\ovsii\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -492,11 +490,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -531,7 +524,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\ovsii\\.dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
