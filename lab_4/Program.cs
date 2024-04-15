@@ -44,13 +44,8 @@ app.MapGet("/api/getvisitsofAnimal/{id:int}", (int id) =>
     return visit == null ? Results.NotFound($"Animal with id {id} was not found") : Results.Ok(visit);
 }).WithName("GetVisitAnimal").WithOpenApi();
 
-app.MapPost("/api/addVisit", (int id ,Visits Visits) =>
+app.MapPost("/api/addVisit", (Visits Visits) =>
 {
-    var visitToId = _visits.FirstOrDefault(s => s.AnimalShelter.IdAnimal == id);
-    if (visitToId == null)
-    {
-        return Results.NotFound($"Animal with id {id} was not found, could not assign visit");
-    }
     _visits.Add(Visits);
     return Results.StatusCode(StatusCodes.Status201Created);
 }).WithName("CreateVisit").WithOpenApi();
