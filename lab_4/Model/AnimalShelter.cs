@@ -1,4 +1,4 @@
-﻿namespace lab_4;
+﻿namespace SampleAPI.Models;
 
 public class AnimalShelter
 {

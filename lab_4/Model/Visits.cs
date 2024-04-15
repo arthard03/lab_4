@@ -1,4 +1,6 @@
-﻿namespace lab_4;
+﻿using SampleAPI.Models;
+
+
 
 public class Visits
 {
